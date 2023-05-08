@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T09:13:15.071Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="21.2.9" etag="rWbH3S_pkMCd7uCHZFBD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T09:16:03.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="jFh7-CvBXEYCH0K4KWZ9" version="21.2.9" type="github">
   <diagram name="第 1 页" id="tl_70WMU_ywSamRCKmxg">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-1" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;refreshBeanFactory--创建&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;BeanFactory &lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;并加载&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;BeanDefinition&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-2" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;DefaultListableBeanFactory beanFactory=createBeanFactory();&lt;/div&gt;&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;--创建beanFactory&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-3" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;loadBeanDefinitions--从配置文件中加载BeanDefinitions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-4" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getBeanFactory--获取BeanFactory&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-5" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;invokeBeanFactoryPostProcessors--在&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;Bean&lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;实例化之前，执行&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;BeanFactoryPostProcessor &lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="280" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
