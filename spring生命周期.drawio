@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T13:16:53.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="ca8FZ-zSzF06BGJXyuKc" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T01:16:47.257Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="wGiZx33misdKmRdqQCpJ" version="21.2.9" type="github">
   <diagram name="第 1 页" id="tl_70WMU_ywSamRCKmxg">
     <mxGraphModel dx="1026" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,34 +23,34 @@
           <mxGeometry x="130" y="585" width="290" height="65" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-7" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;beanFactory.preInstantiateSingletons()-提前实例化单例&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;Bean&lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;对象&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="720" width="330" height="50" as="geometry" />
+          <mxGeometry x="40" y="900" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-8" target="CBpqHLBUXLJCD0rtvqB5-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-8" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getBean--获取Bean对象(实际执行doGetBean方法&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="340" width="370" height="40" as="geometry" />
+          <mxGeometry x="1090" y="260" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CBpqHLBUXLJCD0rtvqB5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-9" target="CBpqHLBUXLJCD0rtvqB5-10">
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-9" target="CBpqHLBUXLJCD0rtvqB5-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-9" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getSingleton(判断有没有已经初始化好的Bean对象如果有直接返回，没有则创建)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="410" width="370" height="40" as="geometry" />
+          <mxGeometry x="1090" y="340" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-10" target="CBpqHLBUXLJCD0rtvqB5-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-10" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getBeanDefinition--获取对应的BeanDefinition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="490" width="370" height="50" as="geometry" />
+          <mxGeometry x="1100" y="500" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-11" target="CBpqHLBUXLJCD0rtvqB5-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CBpqHLBUXLJCD0rtvqB5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-11" target="CBpqHLBUXLJCD0rtvqB5-12">
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-11" target="CBpqHLBUXLJCD0rtvqB5-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-11" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;createBean--创建Bean对象（也就是出初始化）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="585" width="370" height="45" as="geometry" />
+          <mxGeometry x="1100" y="580" width="370" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-12" target="CBpqHLBUXLJCD0rtvqB5-13">
           <mxGeometry relative="1" as="geometry" />
@@ -64,10 +64,10 @@
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-13" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;applyPropertyValues--填充属性&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="630" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CBpqHLBUXLJCD0rtvqB5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-14" target="CBpqHLBUXLJCD0rtvqB5-18">
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-14" target="CBpqHLBUXLJCD0rtvqB5-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CBpqHLBUXLJCD0rtvqB5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-14" target="CBpqHLBUXLJCD0rtvqB5-34">
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.434;exitY=1.06;exitDx=0;exitDy=0;entryX=0.481;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-14" target="CBpqHLBUXLJCD0rtvqB5-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-14" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;initializeBean--执行&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;Bean&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;的初始化方法和&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;BeanPostProcessor&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;的前置和后置处理方法&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -77,19 +77,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-15" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;applyBeanPostProcessorsBeforeInitialization--执行&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;BeanPostProessor before&lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;处理&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="660" width="410" height="30" as="geometry" />
+          <mxGeometry x="1980" y="590" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.439;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-16" target="CBpqHLBUXLJCD0rtvqB5-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-16" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;invokeInitMethods--执行自定义初始化方法&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="720" width="360" height="30" as="geometry" />
+          <mxGeometry x="1980" y="650" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-17" target="CBpqHLBUXLJCD0rtvqB5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-17" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;执行&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt; BeanPostProcessor After &lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;处理&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="790" width="410" height="50" as="geometry" />
+          <mxGeometry x="1980" y="720" width="410" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-18">
           <mxGeometry relative="1" as="geometry">
@@ -97,16 +97,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-18" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;addSingleton(beanName,bean);--将创建好的对象加入到单例bean集合中&lt;/div&gt;&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1534" y="820" width="386" height="50" as="geometry" />
+          <mxGeometry x="1500" y="980" width="386" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-19" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;registerDisposableBeanIfNecessary-// 注册实现了 DisposableBean 接口的 Bean 对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="740" width="330" height="50" as="geometry" />
+          <mxGeometry x="1110" y="690" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-34" value="执行各种aware接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="585" width="360" height="45" as="geometry" />
+          <mxGeometry x="1980" y="515" width="360" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CBpqHLBUXLJCD0rtvqB5-35" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;beanFactory.addBeanPostProcessor(&lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;new &lt;/span&gt;ApplicationContextAwareProcessor(&lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;this&lt;/span&gt;));-添加&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; ApplicationContextAwareProcessor&lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;，让继承自&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; ApplicationContextAware &lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;的&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; Bean &lt;/span&gt;&lt;span style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;对象都能感知所属的&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; ApplicationContext&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="65" y="360" width="575" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-36" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getObjectForBeanInstance-// 如果是 FactoryBean，则需要调用 FactoryBean#getObject&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="400" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-38" target="CBpqHLBUXLJCD0rtvqB5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-38" target="CBpqHLBUXLJCD0rtvqB5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-38" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;registerDisposableBeanIfNecessary--// &lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;注册实现了&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; DisposableBean &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;接口的&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; Bean &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;对象&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="860" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-41" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;registerDisposableBean--判断如果是单例对象的话注册销毁方法。否则不做任何处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="840" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-43" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;initApplicationEventMulticaster--初始化事件发布者&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-44" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;registerListeners--注册事件监听器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="800" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-45" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;finishRefresh();-// 9. &lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;发布容器刷新完成事件&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1020" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBpqHLBUXLJCD0rtvqB5-48" target="CBpqHLBUXLJCD0rtvqB5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBpqHLBUXLJCD0rtvqB5-48" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;resolveBeforeInstantiation--// &lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;判断是否返回代理&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt; Bean &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: Menlo-Regular, monospace;&quot;&gt;对象&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="465" width="400" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
