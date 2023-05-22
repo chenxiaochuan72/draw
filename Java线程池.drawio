@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T12:05:56.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="RrF5F1IvJOyBncj1DU62" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T15:19:52.245Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="dZrHoSaxM6Y3fKw7zNT6" version="21.3.2" type="github">
   <diagram name="第 1 页" id="OMCqxFmz9xeC6MgkX1FX">
     <mxGraphModel dx="1026" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,81 @@
         </mxCell>
         <mxCell id="uvZhgvpxxCBJzJagNiA4-20" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;public static &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ScheduledExecutorService &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;newScheduledThreadPool&lt;/span&gt;(&lt;br&gt;        &lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;int &lt;/span&gt;corePoolSize, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ThreadFactory &lt;/span&gt;threadFactory) {&lt;br&gt;    &lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;return new &lt;/span&gt;ScheduledThreadPoolExecutor(corePoolSize, threadFactory);&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="460" width="570" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-62" target="uvZhgvpxxCBJzJagNiA4-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-62" value="ArrayBlockingQueue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-63" target="uvZhgvpxxCBJzJagNiA4-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-63" value="LinkedBlockingQueue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="750" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-64" target="uvZhgvpxxCBJzJagNiA4-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-64" value="PriorityBlockingQueue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="840" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-65" target="uvZhgvpxxCBJzJagNiA4-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-65" value="SynchronousQueue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1000" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-66" target="uvZhgvpxxCBJzJagNiA4-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-66" value="DelayQueue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="920" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-67" target="uvZhgvpxxCBJzJagNiA4-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-67" value="LinkedTransferQueue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1080" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-84" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-83" target="uvZhgvpxxCBJzJagNiA4-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-83" target="uvZhgvpxxCBJzJagNiA4-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-83" target="uvZhgvpxxCBJzJagNiA4-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-83" target="uvZhgvpxxCBJzJagNiA4-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-83" target="uvZhgvpxxCBJzJagNiA4-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvZhgvpxxCBJzJagNiA4-83" target="uvZhgvpxxCBJzJagNiA4-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-83" value="阻塞队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-91" value="一个基于数组实现的有界阻塞队列，按照先进先出的顺序进行元素操作。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="667.5" width="410" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-92" value="一个基于链表实现的可选有界阻塞队列，按照先进先出的顺序进行元素操作。如果未指定容量，则默认为Integer.MAX_VALUE。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="745" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-93" value="一个无界阻塞队列，按照元素的优先级进行排序。元素需要实现Comparable接口或者通过构造函数传入Comparator。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="845" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-94" value="一个没有容量的阻塞队列，每个插入操作必须等待另一个线程的移除操作，反之亦然。主要用于线程间传递信息。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1010" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-95" value="一个无界阻塞队列，其中的元素只有在其指定的延迟时间到达时才能被取出。元素需要实现Delayed接口。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="932.5" width="370" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uvZhgvpxxCBJzJagNiA4-96" value="一个无界阻塞队列，支持生产者和消费者之间的双向传输。它是ConcurrentLinkedQueue和SynchronousQueue的结合体。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1090" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
