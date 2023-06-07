@@ -1,69 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T04:53:30.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="V_FgCDrap4jeXgCgIe6Z" version="21.1.2" type="github">
-  <diagram name="第 1 页" id="8lUOQ5nHZoZ0LKgEKRRM">
-    <mxGraphModel dx="1026" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-06-07T01:41:21.105Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="21.3.7" etag="i_p7XQAXX-9VdQGNXezU" type="github">
+  <diagram name="第 1 页" id="DURijmYd-PqK-rikVebR">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.49;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=#000000;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-1" target="HnccQq1cx2f1_fGEKsfp-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-1" value="DrasConfig.java ---&amp;nbsp;抽奖统一配置信息类，这个类的主要作用就是将我们现在有的抽奖策略提前存起来。" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="610" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-2" target="HnccQq1cx2f1_fGEKsfp-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-2" value="AbstractDrawBase.java 模式模版方法，定义整个抽象流程。doDrawExec方法是是整个抽奖流程- 公共的" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="130" y="200" width="600" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-3" target="HnccQq1cx2f1_fGEKsfp-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-3" value="1.获取抽奖策略-super.queryStrategyRich&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="827" y="160" width="383" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-7" target="HnccQq1cx2f1_fGEKsfp-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-7" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;1. DrawStrategySupport.queryStrategyRich()方法，查询配置信息,这个方法主要就是调用相应repository（仓储层）里面的方法。来根据需要查询出我们想要的信息。例如根据策略id，查询出这个ID相关的策略信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1263" y="130" width="397" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.48;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-10" target="HnccQq1cx2f1_fGEKsfp-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-10" value="2.this.checkAndInitRateDate-校验抽象策略是否已经初始化内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="230" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-11" target="HnccQq1cx2f1_fGEKsfp-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-11" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;this.queryExcludeAwardIds-获取不在抽奖范围内的列表&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="330" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-12" target="HnccQq1cx2f1_fGEKsfp-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-12" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;DrawExeclmpl.queryExcludeAwardIds(由子类实现)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="320" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-18" target="HnccQq1cx2f1_fGEKsfp-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-18" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;drawAlgorithm--进行抽奖由具体的抽奖类实现&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="820" y="450" width="410" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-21" target="HnccQq1cx2f1_fGEKsfp-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-21" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;DrawExeclmpl.drawAlgorithm-由子类实现(方法主要步骤为中奖了扣减库存)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="445" width="360" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HnccQq1cx2f1_fGEKsfp-23" target="HnccQq1cx2f1_fGEKsfp-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HnccQq1cx2f1_fGEKsfp-23" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;buildDrawResult-返回中奖结果&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="550" width="410" height="50" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
