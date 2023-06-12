@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T15:28:15.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="uWFViBVWIGI76Z13d1f7" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T16:43:55.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="915XUAOlQBYZh1YnoFnS" version="21.3.7" type="github">
   <diagram name="第 1 页" id="usyzML8Xc9plXJUUFw8d">
     <mxGraphModel dx="2261" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,13 @@
         <mxCell id="3SnL4E2O4EW22NricUnJ-18" value="LinkedHashSet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="520" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SnL4E2O4EW22NricUnJ-22" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="3SnL4E2O4EW22NricUnJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-22" target="3SnL4E2O4EW22NricUnJ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-22" target="3SnL4E2O4EW22NricUnJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-22" value="Queue队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="910" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SnL4E2O4EW22NricUnJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-23" target="3SnL4E2O4EW22NricUnJ-25">
@@ -80,7 +86,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3SnL4E2O4EW22NricUnJ-23" value="Map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SnL4E2O4EW22NricUnJ-25" value="HashMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1300" y="530" width="120" height="60" as="geometry" />
@@ -90,6 +96,62 @@
         </mxCell>
         <mxCell id="3SnL4E2O4EW22NricUnJ-27" value="TreeMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1610" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-32" target="3SnL4E2O4EW22NricUnJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-32" value="Deque" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-33" target="3SnL4E2O4EW22NricUnJ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-33" value="BlockingDeque" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-34" target="3SnL4E2O4EW22NricUnJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-34" target="3SnL4E2O4EW22NricUnJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-34" target="3SnL4E2O4EW22NricUnJ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-34" target="3SnL4E2O4EW22NricUnJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-34" target="3SnL4E2O4EW22NricUnJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SnL4E2O4EW22NricUnJ-34" target="3SnL4E2O4EW22NricUnJ-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="655" />
+              <mxPoint x="960" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-34" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;BlockingQueue&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-41" value="LinkedBlockingQueue&lt;br&gt;&lt;div&gt;由链表结构组成的有界阻塞队列&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="750" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-42" value="ArrayBlockingQueue&lt;br&gt;&lt;div&gt;由数组结构组成的有界阻塞队列&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-43" value="PriorityBlockingQueue&lt;br&gt;&lt;div&gt;支持优先级排序的无界阻塞队列&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-44" value="SynchronousQueue&lt;br&gt;不存储元素的阻塞队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="414" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-45" value="DelayQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="260" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SnL4E2O4EW22NricUnJ-51" value="LinkedBlockingDeque&lt;br&gt;由链表结构组成的双向阻塞队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
