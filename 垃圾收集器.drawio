@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T05:49:43.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="vYUWpsX_ZEfP-EGYrLhe" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T15:29:09.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="e7wVQl0hIOcY_SAH-345" version="21.3.8" type="github">
   <diagram name="第 1 页" id="_tdODql-RHOwF0bnwexH">
-    <mxGraphModel dx="1907" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="6Xqe4w2kYzw0qAbWdILb-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Parallel Scavenge&lt;br&gt;多线程&lt;br&gt;标记复制-吞吐量&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="206" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="6Xqe4w2kYzw0qAbWdILb-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Serial &amp;nbsp;Old&lt;br&gt;是Serial的老年代版本&lt;br&gt;标记-整理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=1;" parent="1" vertex="1">
+        <mxCell id="6Xqe4w2kYzw0qAbWdILb-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Serial &amp;nbsp;Old&lt;br&gt;是Serial的老年代版本&lt;br&gt;标记-整理&lt;br&gt;最短垃圾回收停顿时间&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="600" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="6Xqe4w2kYzw0qAbWdILb-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Parallel Old&lt;br&gt;是Parallel Scavenge的老年代版本&lt;br&gt;标记-整理-吞吐量&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=1;" parent="1" vertex="1">
@@ -169,73 +169,73 @@
         <mxCell id="1udKDLczhn83nqekfiIC-43" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;font-weight: 600; caret-color: rgb(44, 62, 80); color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, STHeiti, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: justify;&quot;&gt;类信息、字段信息、方法信息、常量、静态变量、即时编译器编译后的代码缓存等数据&lt;/span&gt;。&lt;br&gt;Class 文件中除了有类的版本、字段、方法、接口等描述信息外，还有用于存放编译期生成的&lt;b&gt;&lt;i&gt;各种字面量（Literal）&lt;/i&gt;&lt;/b&gt;和&lt;b&gt;&lt;i&gt;符号引用（Symbolic Reference）&lt;/i&gt;&lt;/b&gt;的 常量池表(Constant Pool Table)&amp;nbsp;&lt;br&gt;&lt;span style=&quot;caret-color: rgb(44, 62, 80); color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, STHeiti, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="17" y="1670" width="403" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1040" width="800" height="1500" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1560" y="1110" width="640" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;验证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;验证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1850" y="1109" width="90" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-6" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;类加载过程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-6" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;类加载过程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1830" y="1050" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1560" y="1280" width="640" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;链接&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;链接&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1830" y="1285" width="125" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1560" y="1970" width="650" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;初始化&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;初始化&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1843" y="1970" width="99" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-12" value="&lt;ol style=&quot;font-size: 13px; text-align: start; line-height: 1.6; overflow-wrap: break-word; padding-inline-start: 1.2em; caret-color: rgb(44, 62, 80); color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, STHeiti, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;通过全类名获取定义此类的二进制字节流。&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;将字节流所代表的静态存储结构转换为方法区的运行时数据结构。&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;在内存中生成一个代表该类的&amp;nbsp;&lt;code style=&quot;margin: 0px; padding: 0.2rem 0.4rem; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgba(127, 127, 127, 0.12); font-size: 13px; overflow-wrap: break-word; font-family: var(--font-family-mono); transition: background var(--color-transition),color var(--color-transition);&quot;&gt;Class&lt;/code&gt;&amp;nbsp;对象，作为方法区这些数据的访问入口。&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-12" value="&lt;ol style=&quot;font-size: 13px; text-align: start; line-height: 1.6; overflow-wrap: break-word; padding-inline-start: 1.2em; caret-color: rgb(44, 62, 80); color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, STHeiti, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;通过全类名获取定义此类的二进制字节流。&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;将字节流所代表的静态存储结构转换为方法区的运行时数据结构。&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;在内存中生成一个代表该类的&amp;nbsp;&lt;code style=&quot;margin: 0px; padding: 0.2rem 0.4rem; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgba(127, 127, 127, 0.12); font-size: 13px; overflow-wrap: break-word; font-family: var(--font-family-mono); transition: background var(--color-transition),color var(--color-transition);&quot;&gt;Class&lt;/code&gt;&amp;nbsp;对象，作为方法区这些数据的访问入口。&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1600" y="1140" width="580" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1620" y="1324" width="540" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-14" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;验证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-14" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;验证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1858.75" y="1326" width="67.5" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-17" value="&lt;ol style=&quot;font-size: 13px; line-height: 1.6; overflow-wrap: break-word; padding-inline-start: 1.2em; caret-color: rgb(44, 62, 80); color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, STHeiti, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;文件格式验证（Class 文件格式检查）&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;元数据验证（字节码语义检查）&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;字节码验证（程序语义检查）&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;符号引用验证（类的正确性检查）&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-17" value="&lt;ol style=&quot;font-size: 13px; line-height: 1.6; overflow-wrap: break-word; padding-inline-start: 1.2em; caret-color: rgb(44, 62, 80); color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, STHeiti, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;文件格式验证（Class 文件格式检查）&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;元数据验证（字节码语义检查）&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;字节码验证（程序语义检查）&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;符号引用验证（类的正确性检查）&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1744" y="1356" width="302" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1624" y="1510" width="526" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-20" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;准备&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-20" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;准备&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1850" y="1512.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-21" value="正式为类变量分配内存并设着类变量初始值阶段，如果类变量被final修饰，则直接赋值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-21" value="正式为类变量分配内存并设着类变量初始值阶段，如果类变量被final修饰，则直接赋值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1710" y="1570" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1620" y="1694" width="530" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-23" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;解析&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-23" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;解析&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1858.75" y="1694" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-25" value="解析阶段是虚拟机将常量池内的符号引用替换为直接引用的过程。&lt;br style=&quot;font-size: 13px;&quot;&gt;解析动作主要针对类或接口、字段、类方法、接口方法、方法类型、方法句柄和调用限定符7类符号引用进行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-25" value="解析阶段是虚拟机将常量池内的符号引用替换为直接引用的过程。&lt;br style=&quot;font-size: 13px;&quot;&gt;解析动作主要针对类或接口、字段、类方法、接口方法、方法类型、方法句柄和调用限定符7类符号引用进行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1638" y="1713" width="452" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-26" value="初始化阶段是执行初始化方法的过程，是类加载的最后一步，这一步JVM才开始真正执行类中定义的Java程序代码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-26" value="初始化阶段是执行初始化方法的过程，是类加载的最后一步，这一步JVM才开始真正执行类中定义的Java程序代码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1690" y="2000" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-27" value="1.当遇到new、getstatic、putstatic、invokestatic这4条字节码指令时&lt;br style=&quot;font-size: 13px;&quot;&gt;2.使用java.lang.reflect包的方法对类进行反射调用时&lt;br style=&quot;font-size: 13px;&quot;&gt;3.初始化一个类，如果其父类还未初始化，则先出发该父类的初始化&lt;br style=&quot;font-size: 13px;&quot;&gt;4.当虚拟机启动时，用户定义的主类&lt;br style=&quot;font-size: 13px;&quot;&gt;5.MethodHandle 和 VarHandle 可以看作是轻量级的反射调用机制，而要想使用这 2 个调用， 就必须先使用 findStaticVarHandle 来初始化要调用的类。&lt;br style=&quot;font-size: 13px;&quot;&gt;6.被default关键字修饰的接口方法。如果有这个接口的实现类发生了初始化，那该接口要在其之间被初始化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-27" value="1.当遇到new、getstatic、putstatic、invokestatic这4条字节码指令时&lt;br style=&quot;font-size: 13px;&quot;&gt;2.使用java.lang.reflect包的方法对类进行反射调用时&lt;br style=&quot;font-size: 13px;&quot;&gt;3.初始化一个类，如果其父类还未初始化，则先出发该父类的初始化&lt;br style=&quot;font-size: 13px;&quot;&gt;4.当虚拟机启动时，用户定义的主类&lt;br style=&quot;font-size: 13px;&quot;&gt;5.MethodHandle 和 VarHandle 可以看作是轻量级的反射调用机制，而要想使用这 2 个调用， 就必须先使用 findStaticVarHandle 来初始化要调用的类。&lt;br style=&quot;font-size: 13px;&quot;&gt;6.被default关键字修饰的接口方法。如果有这个接口的实现类发生了初始化，那该接口要在其之间被初始化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1638" y="2060" width="492" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1565" y="2250" width="650" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-30" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;类卸载&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-30" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;类卸载&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1850" y="2250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WcxZRaSRwMAs-RTfd-xi-31" value="1.该类的所有的实例对象都被GC、也就是说堆不存在该类的实例&lt;br style=&quot;font-size: 13px;&quot;&gt;2.该类没有在其他任何地方被引用&lt;br style=&quot;font-size: 13px;&quot;&gt;3.该类的类加载器的实例已被GC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="WcxZRaSRwMAs-RTfd-xi-31" value="1.该类的所有的实例对象都被GC、也就是说堆不存在该类的实例&lt;br style=&quot;font-size: 13px;&quot;&gt;2.该类没有在其他任何地方被引用&lt;br style=&quot;font-size: 13px;&quot;&gt;3.该类的类加载器的实例已被GC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1650" y="2290" width="460" height="110" as="geometry" />
         </mxCell>
       </root>
