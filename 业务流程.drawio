@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T03:51:25.009Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="21.8.2" etag="APV8NwyYDkzMPyKU1Hnj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T06:35:22.085Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="B5eofCynvr-I6_AHda7r" version="22.0.4" type="github">
   <diagram name="第 1 页" id="sIZ0GRrX90LJB6gORD5J">
-    <mxGraphModel>
+    <mxGraphModel dx="2901" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="10" width="1200" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="60" width="930" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-7" value="r" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="290" width="960" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-5" target="WryDXbmS8Si2t1L6r0Dt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-5" value="视频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-8" target="WryDXbmS8Si2t1L6r0Dt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-8" value="安全一审" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-10" target="WryDXbmS8Si2t1L6r0Dt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-10" value="策略 rcp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-13" target="WryDXbmS8Si2t1L6r0Dt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-13" target="WryDXbmS8Si2t1L6r0Dt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-13" value="策略、rcp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="525" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-14" target="WryDXbmS8Si2t1L6r0Dt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-14" value="生态审（VV）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="640" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WryDXbmS8Si2t1L6r0Dt-16" target="WryDXbmS8Si2t1L6r0Dt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-16" value="安全二审" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="527.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WryDXbmS8Si2t1L6r0Dt-21" value="策略、rcp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="665" width="130" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
